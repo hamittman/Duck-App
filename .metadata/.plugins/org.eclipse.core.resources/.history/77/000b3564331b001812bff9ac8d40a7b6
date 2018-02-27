@@ -1,0 +1,37 @@
+
+public class ModelDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	private static int i = 1;
+	private static String nameSuffix = "Model Duck";
+	private String name;
+	private String flying ="";
+	
+	ModelDuck() {
+		
+		this.name= nameSuffix +i;
+		i++;
+	}
+	
+	
+	
+	public String swim(){
+		return "I am " + name + " of the RedheadDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		
+		return "I am a Redhead Duck. My name is " + name +".\n";
+	}
+	
+	public void setFly(String fly1){
+		flying =fly1; 
+	}
+	
+	public String fly(){
+		return "I am " + name + " of class ModelDuck and I can Fly "+ flying + "!\n"; 
+	}
+	
+}

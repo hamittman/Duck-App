@@ -1,0 +1,50 @@
+package duck.app;
+import java.util.*;
+
+public class MallardDuck{
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	
+	private static int i = 1;
+	private static String nameSuffix = "Mallard Duck";
+	private String name;
+	
+	MallardDuck() {
+		/*
+		 * Constructor that make unique names for each different Mallard Duck by incrementing the number on the end of the name
+		 */
+		this.name= nameSuffix +i;
+		i++;
+	}
+	
+	public String quack(){
+		/*
+		 * Method to tell the user that this unique duck is quacking and able to quack
+		 */
+		return "Quack! Quack! says " + name +" of the MallardDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		/*
+		 * Method to tell the user that this unique duck is swimming and able to swim
+		 */
+		return "I am " + name + " of the MallardDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		/*
+		 * Duck identify themselves
+		 */
+		return "I am a Mallard Duck. My name is " + name +".\n";
+	}
+	
+	public String fly(){
+		/*
+		 * Method to tell the user that this unique duck can fly
+		 */
+		return "I am " + name + " of class MallardDuck and I can Fly!\n"; 
+	}
+	
+}

@@ -1,0 +1,24 @@
+
+public class RubberDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	RubberDuck() {
+		
+	}
+	
+	public String quack(){
+		
+		return "Quack! Quack! says Rubber duck of the RubberDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		return "I am Rubber Duck of the RubberDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		return "I am a RubberDuck. My name is Mr. Rubber Jr. the baby\n";
+	}
+	
+}

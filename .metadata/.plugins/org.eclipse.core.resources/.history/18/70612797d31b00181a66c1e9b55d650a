@@ -1,0 +1,32 @@
+package duck.app;
+
+public class RubberDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	private static int i = 1;
+	private static String nameSuffix = "Rubber Duck";
+	private String name;
+	
+	
+		
+	RubberDuck() {
+		this.name= nameSuffix +i;
+		i++;
+	}
+	
+	public String quack(){
+		
+		return "Quack! Quack! says " + name +" of the RubberDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		return "I am "+name+ " of the RubberDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		return "I am a RubberDuck. My name is " + name+ ". \n";
+	}
+	
+}

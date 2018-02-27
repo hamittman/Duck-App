@@ -1,0 +1,62 @@
+
+import java.util.*;
+public class DuckApp {
+	/***
+	 * Lab 1: Duck-App
+	 * 
+	 * @author Hannah Mittman
+	 * 
+	 * The client wants us to create a Duck App (application name: DuckApp) 
+	 * that simulates the following two types of ducks:
+	 * - Mallard Duck (classname: MallardDuck)
+	 * - Redhead Duck (classname: RedheadDuck)
+	 * A duck should be able to exhibit the following behaviors:
+	 * - Quack (method name: quack())
+	 * - Swim (method name: swim())
+	 * - Display itself on the screen
+	 * 
+	 * The way Redhead Duck is displayed is different than the way the 
+	 * Mallard Duck is displayed. The client has wants to get a working 
+	 * prototype first. They are not interested in any fancy UI to begin 
+	 * with. For now, you can check what type of duck it is by simply passing 
+	 * it passing it (a duck object) to some print function (For example: 
+	 * System.out.println()).  It should print the following message “I am 
+	 * a MallardDuck. My name is Mr. Mallard Sr.”.  The type of duck is the 
+	 * classname and the name should be some unique string. to standard output, 
+	 * and the Redhead Duck is displayed by printing “I am a RedheadDuck. My name 
+	 * is Mr. Readhead Jr.”. The duck should be able to swim when you call the swim() 
+	 * method on them and Quack when you call the quack() method. To show that the right 
+	 * method is called, they should print, ”I am <Name> of the <ClassName> class of 
+	 * ducks and I am swimming”, and “Quack! Quack! says <Name> of the <ClassName> class 
+	 * of ducks”.
+	 * 
+	 * Create the necessary classes to represent the ducks. Make sure you have a way for 
+	 * the client to test whether the ducks objects are behaving the way they are supposed 
+	 * to. The client would like to get the code at the end of the project, so they would 
+	 * like to have it be well documented.  There should be JavaDoc for each class and method 
+	 * specifying what parameters should be provided and what the return types are, etc.
+
+
+	 */
+	public static void main(String[] args){
+		
+		MallardDuck m = new MallardDuck();
+		System.out.print(m.quack());
+		System.out.print(m);
+		System.out.print(m.swim());
+		System.out.print(m.fly());
+		
+		RedheadDuck r = new RedheadDuck();
+		System.out.print(r.quack());
+		System.out.print(r);
+		System.out.print(r.swim());
+		System.out.print(r.fly());
+		
+		RubberDuck ru = new RubberDuck();
+		System.out.print(ru.quack());
+		System.out.print(ru);
+		System.out.print(ru.swim());
+	
+		
+	}
+}

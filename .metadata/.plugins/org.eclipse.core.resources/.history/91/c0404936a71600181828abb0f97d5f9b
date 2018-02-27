@@ -1,0 +1,20 @@
+
+public class DecoyDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	DecoyDuck() {
+		
+	}
+	
+	
+	public String swim(){
+		return "I am Decoy Duck of the DecoyDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		return "I am a RubberDuck. My name is Mr. Decoy Jr. the baby\n";
+	}
+	
+}

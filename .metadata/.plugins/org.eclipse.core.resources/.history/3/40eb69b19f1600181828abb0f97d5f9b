@@ -1,0 +1,26 @@
+
+public class RedheadDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	RedheadDuck() {
+		
+	}
+	
+	public String quack(){
+		return "Quack! Quack! says Redhead duck of the RedheadDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		return "I am Redhead Duck of the RedheadDuck class of ducks and I am swimming \n";
+	}
+	
+	public String displaySelf(){
+		return "I am a RedheadDuck. My name is Mr. Readhead Sr.\n";
+	}
+	
+	public String fly(){
+		return "I am Redhead Duck of class RedheadDuck and I can Fly!"; 
+	}
+}

@@ -1,0 +1,48 @@
+package duck.app;
+
+public class RedheadDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	private static int i = 1;
+	private static String nameSuffix = "Redhead Duck";
+	private String name;
+	
+	RedheadDuck() {
+		/*
+		 * Constructor that make unique names for each different Redhead Duck by incrementing the number on the end of the name
+		 */
+		this.name= nameSuffix +i;
+		i++;
+	}
+	
+	public String quack(){
+		/*
+		 * Method to tell the user that this unique duck is quacking and able to quack
+		 */
+		return "Quack! Quack! says " +name + " of the RedheadDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		/*
+		 * Method to tell the user that this unique duck is swimming and able to swim
+		 */
+		return "I am " + name + " of the RedheadDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		/*
+		 * Duck identify themselves
+		 */
+		return "I am a Redhead Duck. My name is " + name +".\n";
+	}
+	
+	public String fly(){
+		/*
+		 * Method to tell the user that this unique duck can fly
+		 */
+		return "I am " + name + " of class RedheadDuck and I can Fly!\n"; 
+	}
+	
+}

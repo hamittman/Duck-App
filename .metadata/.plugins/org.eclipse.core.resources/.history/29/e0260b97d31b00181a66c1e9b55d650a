@@ -1,0 +1,38 @@
+package duck.app;
+import java.util.*;
+
+public class MallardDuck{
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	
+	private static int i = 1;
+	private static String nameSuffix = "Mallard Duck";
+	private String name;
+	
+	MallardDuck() {
+		
+		this.name= nameSuffix +i;
+		i++;
+	}
+	
+	public String quack(){
+		
+		return "Quack! Quack! says " + name +" of the MallardDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		return "I am " + name + " of the MallardDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		
+		return "I am a Mallard Duck. My name is " + name +".\n";
+	}
+	
+	public String fly(){
+		return "I am " + name + " of class MallardDuck and I can Fly!\n"; 
+	}
+	
+}

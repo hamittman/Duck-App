@@ -1,0 +1,35 @@
+
+public class RedheadDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	private static int i = 1;
+	private static String nameSuffix = "Redhead Duck";
+	private String name;
+	
+	RedheadDuck() {
+		
+		this.name= nameSuffix +i;
+		i++;
+	}
+	
+	public String quack(){
+		
+		return "Quack! Quack! says Redhead duck of the RedheadDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		return "I am " + name + "of the RedheadDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		
+		return "I am a Redhead Duck. My name is " + name +".\n";
+	}
+	
+	public String fly(){
+		return "I am " + name + " of class RedheadDuck and I can Fly!\n"; 
+	}
+	
+}

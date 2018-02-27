@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class MallardDuck{
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	MallardDuck() {
+		
+	}
+	
+	public String quack(){
+		
+		return "Quack! Quack! says Mallard duck of the MallardDuck class of ducks. \n";
+	}
+	
+	public String swim(){
+		return "I am Mallard Duck of the MallardDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		return "I am a MallardDuck. My name is Mr. Mallard Sr.\n";
+	}
+	
+	public String fly(){
+		return "I am Mallard Duck of class MallardDuck and I can Fly!\n"; 
+	}
+	
+}

@@ -1,0 +1,51 @@
+package duck.app;
+
+public class ModelDuck {
+	/*****
+	 * Lab 1 - Duck App
+	 * @author Hannah Mittman
+	 */
+	private static int i = 1;
+	private static String nameSuffix = "Model Duck";
+	private String name;
+	private String flying ="";
+	
+	ModelDuck() {
+		/*
+		 * Constructor that make unique names for each different Model Duck by incrementing the number on the end of the name
+		 */
+		this.name= nameSuffix +i;
+		i++;
+	}
+	
+	
+	
+	public String swim(){
+		/*
+		 * Method to tell the user that this unique duck is swimming and able to swim
+		 */
+		return "I am " + name + " of the ModelDuck class of ducks and I am swimming \n";
+	}
+	
+	public String toString(){
+		/*
+		 * Duck identify themselves
+		 */
+		return "I am a Model Duck. My name is " + name +".\n";
+	}
+	
+	public void setFly(String fly1){
+		/*
+		 * Method to set the way that the Model duck can fly
+		 */
+		flying =fly1; 
+	}
+	
+	public String fly(){
+		/*
+		 * Method to tell the user that this unique duck can fly and if there is a special reason it can fly
+		 */
+		return "I am " + name + " of class ModelDuck and I can Fly "+ flying + "!\n"; 
+	}
+	
+}
